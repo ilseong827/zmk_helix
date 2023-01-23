@@ -71,8 +71,8 @@ As such, those are in use within the default layer at this time.*/
        &trans    &trans &trans &trans &trans  &trans                                            &trans  &trans    &trans     &trans       &trans       &trans
        &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4  &kp N5                                            &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp DEL
        &trans    &kp F1 &kp F2 &kp F3 &kp F4  &kp F5                                            &kp F6  &kp MINUS &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
-       &trans    &kp F7 &kp F8 &kp F9 &EXT_POWER_ON_CMD &EXT_POWER_OFF_CMD &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
-       &trans    &trans &trans &trans &trans             &trans             &trans       &trans &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
+       &trans    &kp F7 &kp F8 &kp F9 &ext_power EP_ON &ext_power EP_OFF &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
+       &trans    &trans &trans &trans &trans           &trans            &trans        &trans &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
                      >;
               };
               adjust_layer {
@@ -86,7 +86,7 @@ As such, those are in use within the default layer at this time.*/
        &kp GRAVE  &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT                             &kp CARET          &kp AMPS          &kp ASTRK       &kp LPAR        &kp RPAR        &ext_power EP_TOG
        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                          &rgb_ug RGB_EFF    &rgb_ug RGB_HUI   &rgb_ug RGB_SAI &rgb_ug RGB_SPI &rgb_ug RGB_BRI &rgb_ug RGB_TOG 
        &bt BT_NXT &out OUT_TOG &out OUT_USB &out OUT_BLE &trans       &trans                                &rgb_ug RGB_EFR    &rgb_ug RGB_HUD   &rgb_ug RGB_SAD &rgb_ug RGB_SPD &rgb_ug RGB_BRD &trans
-       &bt BT_PRV &trans       &trans       &trans       &trans       &trans       &trans          &trans   &EXT_POWER_OFF_CMD &EXT_POWER_ON_CMD &trans          &trans          &trans          &trans
+       &bt BT_PRV &trans       &trans       &trans       &trans       &trans       &trans          &trans   &ext_power EP_OFF  &ext_power EP_ON  &trans          &trans          &trans          &trans
        &trans     &trans       &trans       &trans       &trans       &trans       &trans          &trans   &trans             &trans            &trans          &trans          &trans          &trans
                      >;
               };
