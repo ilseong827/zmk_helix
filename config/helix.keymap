@@ -1,4 +1,4 @@
-/*
+*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -70,7 +70,7 @@ As such, those are in use within the default layer at this time.*/
        &trans    &trans &trans &trans &trans    &trans                        &trans  &trans    &trans     &trans       &trans       &trans
        &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4    &kp N5                        &kp N6  &kp N7    &kp N8     &kp N9       &kp N0       &kp DEL
        &trans    &kp F1 &kp F2 &kp F3 &kp F4    &kp F5                        &kp F6  &kp MINUS &kp EQUAL  &kp LBKT     &kp RBKT     &kp BSLH
-       &trans    &kp F7 &trans &trans &kp K_PWR &kp K_SLEEP &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
+       &trans    &kp F7 &trans &trans &trnas    &trans &trans        &trans &kp F12 &trans    &kp PSCRN  &kp PG_DN    &kp PG_UP    &trans
        &trans    &trans &trans &trans &trans    &trans      &trans        &trans &trans  &trans    &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP
                      >;
               };
